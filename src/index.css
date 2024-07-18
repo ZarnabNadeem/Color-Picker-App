@@ -1,0 +1,67 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("images/backgroud-image.jpeg"); 
+  height: 100vh; 
+  margin: 0;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.color-picker-container {
+  background-color: rgb(74, 202, 159);
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+} 
+h1{
+  margin: 45px;
+  margin-bottom: 25px;
+  font-size: 3 rem;
+}
+#reset-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   border: 5px solid hsl(0, 0%, 80%);
+   border-radius: 20px;
+   margin: 25px;
+   transition: 0.25s ease ;
+}
+.color-display p{
+  color: hsl(0, 0%, 20%);
+  font-size:  2 rem;
+  text-align: center;
+  font-weight: bold;
+}
+label{
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+input[type = 'color']{
+  height: 50px;
+  width: 75px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
